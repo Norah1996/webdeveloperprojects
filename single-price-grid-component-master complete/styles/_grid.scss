@@ -1,0 +1,96 @@
+.grid {
+    display: grid;
+
+    max-height: auto;
+
+    padding: 2em 2em;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        gap: 1.4em;
+    }
+}
+
+.join {
+    padding: 1.5em;
+    background: #fff;
+    border-radius: 0.5em 0.5em 0 0;
+
+    h3 {
+        color: $cyan;
+    }
+
+    h4 {
+        color: $brightyellow;
+    }
+
+    p {
+        color: $grayis-blue;
+        line-height: 1.7;
+        font-size: 14px;
+    }
+}
+
+.pricing {
+    padding: 1.5em;
+    background: $cyan;
+
+    h3 {
+        color: $light-gray;
+    }
+
+    p {
+        color: $light-gray;
+        opacity: 88%;
+    }
+
+    div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        gap: 0.75rem;
+
+        span {
+            color: $light-gray;
+            font-size: 30px;
+            font-weight: 700;
+        }
+
+        p {
+            opacity: 66%;
+        }
+    }
+
+    button {
+        padding: 1em;
+        font-family: 'Karla', sans-serif;
+        font-weight: 700;
+
+        background: $brightyellow;
+        border: none;
+        border-radius: 0.5em;
+        font-size: 15px;
+        color: #fff;
+        cursor: pointer;
+    }
+}
+
+.why-us {
+    padding: 1.5em;
+    background: rgb(90, 201, 199);
+    border-radius: 0em 0em 0.5em 0.5em;
+
+    h3 {
+        color: $light-gray;
+    }
+
+    p {
+        color: $light-gray;
+        opacity: 66%;
+
+        font-size: 14px;
+        line-height: 1.4;
+    }
+}
