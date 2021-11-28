@@ -1,0 +1,57 @@
+.grid-colums-rows {
+    display: grid;
+    grid-auto-flow: row;
+    border-radius: 0.30em;
+    overflow: hidden;
+    max-width: 440px;
+}
+
+.content {
+    padding: 2em 2em;
+}
+
+
+.section-sedans {
+    background-color: $brightorange;
+}
+
+.section-suvs {
+    background-color: $darkcyan;
+}
+
+.section-luxury {
+    background-color: $verydarkcyan;
+}
+
+@media (min-width: 1440px) {
+
+    .container {
+        display: grid;
+        place-items: center;
+
+        padding: unset;
+    
+        font-size: 24px;
+    }
+
+    .grid-colums-rows {
+        display: grid;
+        grid-auto-flow: column;
+        max-width: 1000px;
+
+    }
+
+    section {
+        padding: 0em;
+    }
+
+    .btn {
+        margin-top: 4em;
+    }
+
+    .content p{
+        max-width: 85%;
+        opacity: 85%;
+        line-height: 1.9;
+    }
+}
